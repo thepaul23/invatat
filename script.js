@@ -15,3 +15,10 @@ const c = arr[2];
 
 const [x, y, z] = arr;
 console.log(x, y, z);
+
+const [main, , secondary] = restaurant.categories;
+console.log(first, second);
+
+const temp = main;
+main = secondary;
+secondary = temp;
